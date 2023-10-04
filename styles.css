@@ -1,0 +1,156 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a3a52;
+    color: #ffffff;
+}
+
+header {
+    background-image: url('https://cutshort.io/blog/wp-content/uploads/2018/04/bd1e5c2457278a37313c55ce8c887aa3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #bb6e16;
+    color: #086aac;
+    padding: 60px 0;
+}
+
+header h1 {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    transition: transform 0.2s ease-in;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul:hover {
+    transform: translateY(10px);
+}
+
+nav a {
+    text-decoration: none;
+    color: #bb6e16;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #bb6e16;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #bb6e16;
+    color: #fff;
+}
+
+#contact {
+    text-align: center;
+}
+
+#projects {
+    background-color: #2a3a52;
+    padding: 40px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.project {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    width: 40%;
+    padding: 20px;;
+    background-color: #2a3a52;
+    border-radius: 5px;
+    box-shadow: 0 0 500px rgba(0, 0, 0.6, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #bb6e16;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.project img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project P {
+    font-size: 24px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+#contact h1 {
+    margin-top: 100px;
+    color: #bb6e16;
+    font-size: 35px
+}
+
+#contact .social-medias {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#contact .social-media {
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+#contact .social-media:hover {
+    transform: translateY(10px);
+}
+
+@media only screen and (width < 700px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    #projects .project {
+        height: 600px;
+        width: 100%;
+    }
+}
